@@ -1,0 +1,35 @@
+# compiled
+.swc
+build/
+dist/
+node_modules/
+
+# logs
+logs
+*.log
+
+# tests
+/coverage
+
+# dependencies
+/.pnp
+.pnp.js
+
+# hosts
+.vercel
+
+# editors
+/.idea/
+
+# os
+.DS_Store
+*.pem
+
+# secrets
+keys.json
+.env
+.env.*
+!.env.template
+
+# typescript
+*.tsbuildinfo

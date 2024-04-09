@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "../../.eslintrc.json",
+    "plugin:tailwindcss/recommended"
+  ],
+  "rules": {
+    "tailwindcss/classnames-order": "off"
+  },
+  "ignorePatterns": ["next.config.js", "postcss.config.js"]
+}
