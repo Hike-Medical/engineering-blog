@@ -20,5 +20,5 @@ The monorepo for applications and shared packages.
 
 ## Notes
 
-1. The monorepo uses _pnpm workspaces_ to manage apps and packages. The root scripts are convenience commands that run sub-package commands. To run a command for a specific package, use the `pnpm --filter` command and the name of the package, such as: `pnpm --filter '@basem/portfolio-web' build`
+1. The monorepo uses _pnpm workspaces_ to manage apps and packages. The root scripts are convenience commands that run sub-package commands. To run a command for a specific package, use the `pnpm --filter` command and the name of the package, such as: `pnpm --filter '@hike/commerce-web' build`
 2. `Concurrently` used from the root `package.json` for segregating parallel commands to the console in a human-readable way.
