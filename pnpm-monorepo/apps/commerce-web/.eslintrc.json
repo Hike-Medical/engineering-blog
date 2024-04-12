@@ -9,5 +9,5 @@
   "rules": {
     "tailwindcss/classnames-order": "off"
   },
-  "ignorePatterns": ["next.config.js", "postcss.config.js"]
+  "ignorePatterns": ["next.config.mjs", "postcss.config.js"]
 }
