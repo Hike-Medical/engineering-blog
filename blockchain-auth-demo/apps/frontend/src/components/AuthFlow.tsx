@@ -91,10 +91,11 @@ export default function AuthFlow() {
             <span className="font-medium">Token Response:</span> Signed JWT is sent back to the client
           </li>
           <li className="pl-2">
-            <span className="font-medium">Token Storage:</span> Browser stores the JWT in a cookies or Keychain
+            <span className="font-medium">Token Storage:</span> Browser stores the JWT in a cookies or Keychain for
+            mobile
           </li>
           <li className="pl-2">
-            <span className="font-medium">Subsequent Requests:</span> JWT is included in the cookie orAuthorization
+            <span className="font-medium">Subsequent Requests:</span> JWT is included in the cookie or Authorization
             header
           </li>
           <li className="pl-2">
