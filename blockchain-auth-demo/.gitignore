@@ -1,0 +1,43 @@
+# compiled
+build/
+dist/
+node_modules/
+.swc/
+
+# logs
+logs
+*.log
+
+# dependencies
+/.pnp
+.pnp.js
+npm-debug.log*
+.turbo
+
+# hosts
+.vercel
+
+# editors
+.idea/
+
+# os
+.DS_Store
+*.pem
+
+# secrets
+keys.json
+.env
+.env.*
+!.env.template
+
+# typescript
+*.tsbuildinfo
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Python environment
+.venv
+*/_pycache_/
