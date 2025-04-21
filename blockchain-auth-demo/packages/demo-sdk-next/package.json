@@ -1,0 +1,32 @@
+{
+  "name": "@demo/sdk-next",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc --watch",
+    "clean": "rm -rf node_modules dist"
+  },
+  "dependencies": {
+    "@demo/sdk": "workspace:*",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "peerDependencies": {
+    "next": "^15"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}

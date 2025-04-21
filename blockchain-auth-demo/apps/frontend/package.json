@@ -1,0 +1,25 @@
+{
+  "name": "@demo/frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf .next && next build",
+    "dev": "next dev -p 3001 --turbopack",
+    "clean": "rm -rf node_modules .next"
+  },
+  "dependencies": {
+    "@demo/sdk": "workspace:*",
+    "@demo/sdk-next": "workspace:*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
