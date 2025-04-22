@@ -22,5 +22,9 @@ export const fetchSessionUser = async (token: string | null): Promise<AuthUser> 
     cache: 'no-store'
   });
 
+  if (!response.ok) {
+    throw new Error('Session not found');
+  }
+
   return await response.json();
 };
