@@ -61,7 +61,7 @@ export class AuthController {
    */
   private async login(user: AuthUser, redirectUrl: string | null, @Req() req: Request, @Res() res: Response) {
     this.logger.debug('Begin creating session management for login...');
-    const tokens = await this.authService.createSession(user, req, res);
+    const tokens = await this.authService.createSession(user.id, req, res);
     this.logger.debug('Create session for login successfully completed');
 
     if (redirectUrl) {

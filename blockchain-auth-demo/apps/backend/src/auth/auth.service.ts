@@ -77,7 +77,7 @@ export class AuthService {
    * Creates a session for the user.
    */
   async createSession(
-    user: AuthUser,
+    userId: string,
     request: Request,
     response: Response
   ): Promise<{
@@ -86,7 +86,7 @@ export class AuthService {
   }> {
     this.logger.debug('Begin creating session management...');
 
-    const tokens = await this.createTokens(user.id);
+    const tokens = await this.createTokens(userId);
     const cookie = this.createCookie(request);
 
     if (!cookie) {
