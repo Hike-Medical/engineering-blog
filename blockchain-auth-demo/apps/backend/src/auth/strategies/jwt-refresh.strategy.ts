@@ -34,7 +34,7 @@ export class JwtRefreshStrategy extends PassportStrategy(Strategy, 'jwt-refresh'
   async validate(payload: JwtPayload): Promise<JwtRefreshStrategyRequest['user']> {
     // Passport has successfully decoded and verified the token already,
     // otherwise an error would have thrown before reaching this point
-    this.logger.debug('Begin validating refresh access token...');
+    this.logger.debug('Begin fulfilling refresh access token request...');
 
     if (!payload.sub) {
       this.logger.error('No profile identifier found in refresh token payload');
