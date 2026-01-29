@@ -27,7 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
     "concurrently": "^8",
-    "eslint": "^8",
+    "eslint": "^9",
     "eslint-config-airbnb": "^19",
     "eslint-config-airbnb-typescript": "^18",
     "eslint-config-prettier": "^9",
